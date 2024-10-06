@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Ads</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Car Ads</h1>
+
+    <!-- Filter Section -->
+    <div class="filters">
+        <select id="make-filter">
+            <option value="">All Makes</option>
+        </select>
+        <input type="number" id="year-filter" placeholder="Year">
+        <input type="number" id="price-filter" placeholder="Max Price">
+        <button id="filter-btn">Filter</button>
+    </div>
+
+    <!-- Car List -->
+    <div id="car-list" class="car-list"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
